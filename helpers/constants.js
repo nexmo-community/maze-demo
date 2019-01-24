@@ -1,0 +1,36 @@
+'use strict'
+
+const UP = 'UP';
+const DOWN = 'DOWN';
+const LEFT = 'LEFT';
+const RIGHT = 'RIGHT';
+
+const UP_LETTER = 'U';
+const DOWN_LETTER = 'D';
+const LEFT_LETTER = 'L';
+const RIGHT_LETTER = 'R';
+
+const PLAYER_SPACE = 3;
+const PATH_SPACE = 0;
+const GOAL_SPACE = 2;
+const WALL_SPACE = 1;
+
+const MAZE_HEIGHT = 25
+const MAZE_WIDTH = 25;
+
+module.exports = {
+    UP: UP,
+    DOWN: DOWN,
+    LEFT: LEFT,
+    RIGHT: RIGHT,
+    PLAYER_SPACE: PLAYER_SPACE,
+    PATH_SPACE: PATH_SPACE,
+    GOAL_SPACE: GOAL_SPACE,
+    WALL_SPACE: WALL_SPACE,
+    MAZE_HEIGHT: MAZE_HEIGHT,
+    MAZE_WIDTH: MAZE_WIDTH,
+    UP_LETTER: UP_LETTER,
+    DOWN_LETTER: DOWN_LETTER,
+    LEFT_LETTER: LEFT_LETTER,
+    RIGHT_LETTER: RIGHT_LETTER
+}

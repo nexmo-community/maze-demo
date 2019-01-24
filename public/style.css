@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|VT323');
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: calc(1.5vmin + 1em);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-width: 15em;
+  font-family: 'Cutive Mono', 'Monaco', 'Courier New', monospace;
+}
+
+main {
+  flex: 1;
+  padding: 0 1em;
+  display: grid;
+  grid-template-columns: fit-content(12em) auto fit-content(12em);
+  grid-gap: 1em;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'VT323', monospace;
+}
+
+p {
+  line-height: 1.3;
+}
+
+.instructions {
+  margin-top: 1em;
+}
+
+.maze {
+  margin: auto;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25em;
+  font-size: 75%;
+}
+
+.kaomoji {
+  font-family: Arial;
+}

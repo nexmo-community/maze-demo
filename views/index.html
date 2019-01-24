@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nexmo Maze</title>
+    <meta name="description" content="Navigate the maze via SMS.">
+    <link id="favicon" rel="icon" href="https://www.nexmo.com/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/style.css">
+    <script src="/simplewebsocket.min.js" defer></script>
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1 id="mazeName">The A-Maze-ing Race</h1>
+      <p>Please come up with some better copy for this demo. <span class="kaomoji">¯\_(ツ)_/¯</span></p>
+    </header>
+    
+    <main>
+      <div class="instructions">
+        <p>SMS <code>left</code>, <code>right</code>, <code>up</code> or <code>down</code> to <code style="white-space: nowrap">+1-888-553-7704</code> to move the player through the maze.</p>
+      </div>
+      <div id="maze" class="maze">
+        <canvas tabindex="1" width="600" height="600" id="mazeCanvas">Can't load the maze game, because your browser doesn't support HTML5.</canvas>
+        <noscript>JavaScript is not enabled. To play the game, you should enable it.</noscript>
+      </div>
+      <div class="instructions">
+        <p>Flying unicorns cast rainbows over the chocolate lake of wonder.</p>
+      </div>
+    </main>
+
+    <footer>
+      <p><small>Built on <a href="https://glitch.com">Glitch</a> with Nexmo's <a href="https://developer.nexmo.com/messages/overview">Messages API</a>.</small></p>
+    </footer>
+
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+
+  </body>
+</html>
