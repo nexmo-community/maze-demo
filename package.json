@@ -12,7 +12,7 @@
     "express": "^4.16.4",
     "express-ws": "^4.0.0",
     "gfycat-style-urls": "^1.0.3",
-    "sequelize": "^4.42.0",
+    "sequelize": "^6.0.0",
     "simple-websocket": "^7.2.0",
     "sqlite3": "^4.0.6"
   },
