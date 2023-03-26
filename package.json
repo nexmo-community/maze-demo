@@ -14,7 +14,7 @@
     "gfycat-style-urls": "^1.0.3",
     "sequelize": "^4.42.0",
     "simple-websocket": "^7.2.0",
-    "sqlite3": "^4.0.6"
+    "sqlite3": "^5.0.0"
   },
   "devDependencies": {
     "sequelize-cli": "^5.4.0"
