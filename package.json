@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "express-ws": "^4.0.0",
+    "express-ws": "^5.0.0",
     "gfycat-style-urls": "^1.0.3",
     "sequelize": "^4.42.0",
     "simple-websocket": "^7.2.0",
